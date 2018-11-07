@@ -1,0 +1,13 @@
+#PLANET
+Name         Terra Prime~
+Filename     limbo.planet~
+X            10000
+Y            10000
+Z            10000
+Sector       0
+PopSupport   100
+Starsystem   Terra Prime~
+Area         limbo~
+End
+
+#END

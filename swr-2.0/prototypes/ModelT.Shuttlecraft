@@ -1,0 +1,25 @@
+#PROTOTYPE
+Name         Model T Shuttlecraft~
+Filename     ModelT.Shuttlecraft~
+Description  This old shuttlecraft is fairly sturdy but isn't equiped with many of the
+fancy features that the newer models come with.   The cockpit is rather
+sparse and the seating is stiff and uncomfortable.  The passenger hold is
+fairly roomy but lacks any form of entertainment whatsoever.  Still this
+craft is equiped with a hyperdrive and does have some defensive
+capabilities. It makes a good low cost transport for those who need one. 
+~
+Class        0
+Model        1
+Tractorbeam  0
+Lasers       1
+Maxmissiles  0
+Maxshield    50
+Maxhull      500
+Maxenergy    5000
+Hyperspeed   100
+Maxchaff     0
+Realspeed    80
+Manuever     75
+End
+
+#END

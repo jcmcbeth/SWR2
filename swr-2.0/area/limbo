@@ -1,0 +1,186 @@
+#AREA   Limbo~
+
+
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 12 1
+S
+#2
+Limbo~
+You float in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light which fades into the
+relative darkness around you without any trace of edge or shadow.
+~
+0 1036 1
+D4
+~
+~
+0 -1 20
+S
+#3
+Limbo Shipyard~
+A wet grey mist hangs over this large yard of old an unused vessels.
+Ships of all types and sizes rest here empty and abandoned...
+~
+0 4 1
+S
+#4
+Omnipresent Control Center~
+You are in the center of the Omnipresent Being's domain.  From this complex
+the all knowing, all powerful beings that control this galaxy do their
+work. There is a computer terminal in the center of the room used to
+monitor happenings of the rest of the Galaxy.
+~
+0 12 1
+S
+#5
+Academy Shipyard~
+Now it is time for you to set off and begin your adventure.
+Your spacecraft has been prepared for you and is ready for launch.
+To get in type: OPEN <shipname> 
+And then: ENTER <shipname> 
+Good luck. 
+~
+0 17412 1
+D2
+~
+~
+0 -1 9
+S
+#6
+Academy on Terra Prime~
+~
+0 4 1
+D0
+~
+~
+0 -1 9
+D1
+~
+~
+0 -1 12
+S
+#7
+Basic Survival Training~
+~
+0 4 1
+D3
+~
+~
+0 -1 9
+S
+#8
+Political Science~
+~
+0 4 1
+D1
+~
+~
+0 -1 9
+S
+#9
+More of the Academy~
+~
+0 4 1
+D0
+~
+~
+0 -1 5
+D1
+~
+~
+0 -1 7
+D2
+~
+~
+0 -1 6
+D3
+~
+~
+0 -1 8
+S
+#10
+The New Player Center~
+This mud is not yet fully operational... 
+  
+However it is playable. Just.. very rough around the edges. So, please feel
+free to explore and test things. 
+  
+If you've changed your mind and don't feel like playing please delete your
+character with the "suicide" command. 
+  
+Otherwise, type "enter" to start playing. 
+ 
+~
+0 12 1
+D10
+~
+~
+133120 -1 6
+S
+#11
+Hey Get OUT of HERE~
+~
+0 68 0
+S
+#12
+Empoyment Office~
+~
+0 268436492 0
+D3
+~
+~
+0 -1 6
+S
+#13
+Floating in a void~
+~
+0 4 1
+S
+#14
+Floating in a void~
+~
+0 4 1
+S
+#15
+Floating in a void~
+~
+0 4 1
+S
+#16
+Floating in a void~
+~
+0 4 1
+S
+#17
+Floating in a void~
+~
+0 4 1
+S
+#18
+Floating in a void~
+~
+0 4 1
+S
+#19
+Floating in a void~
+~
+0 4 1
+S
+#20
+Galactic Crossroads~
+The time has come for you to make a fresh start.  
+It is time to choose a planet from which to start your adventure.  
+The path before you is open. Your fate is now in your own hands. 
+All that is left for you to do is to type the name of your destination... 
+~
+0 12 1
+S
+#0
+
+
+#$

@@ -1,0 +1,537 @@
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+~
+3 4194856 1000 Z
+50 20 -30 5d10+30550 4d10+200
+10000 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 3156992 0 2 3
+0 0 0 0 0 0 0 0
+> speech_prog test~
+say triggered by (name):	$n
+say triggered by (name&title): 	$N
+say triggerer is (he,she,it):	$e
+say triggerer is (him,her,it):	$m
+say triggerer is (his,hers,its):$s
+say random char (name):		$r
+say random char (name&title or short): 	$R
+say random char  (he,she,it):	$J
+say random char (him,her,it):	$L
+say random char (his,hers,its):	$K
+~
+> speech_prog test2~
+say firstname of obj:	 	$i
+say short_desc/title of obj: 	$I
+say he/she/it of obj:	 	$j
+say him/her/it of obj:	 	$k
+say his/hers/its of obj:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
+|
+#2
+supermob~
+the supermob~
+The supermob is here.  He looks busy as hell.
+~
+How clever he looks!
+~
+2105345 4259882 -1000 Z
+105 1 -162 21d10+1050 10d4+2
+10000 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+21 21 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 25~
+mpinvis 101
+~
+|
+#3
+solier thug mercinary hitman~
+a mercinary~
+A mercinary stands here ready for battle.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 1d10+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#4
+bouncer guard thug~
+a guard~
+An alert guard stands at attention.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 1d10+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#5
+soldier guard~
+a soldier~
+A mercinary patrols the area.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 1d10+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#6
+trade clerk~
+a clerk~
+This clerk will buy resources that have been gathered or mined.
+~
+~
+1048579 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7
+spaceport security guard~
+a spaceport security guard~
+A spaceport security guard watches over the platform.
+~
+~
+1073741827 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#8
+bird~
+a bird~
+A bird flies around nearby.
+~
+~
+16777345 524288 0 Z
+1 0 98 0d10+2 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 3 0
+0 0 0 0 0 0 0 0
+#9
+scavenger~
+a scavenger~
+A scavenger looks around for something to eat.
+~
+~
+16777345 0 0 Z
+1 0 98 0d10+2 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0
+#10
+insect~
+an insect~
+An insect buzzes around your head.
+~
+~
+16777249 524288 0 Z
+1 0 100 1d1+0 1d1+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8 0
+0 0 0 0 0 0 0 0
+#11
+preditor~
+a preditor~
+A large preditor looks hungry.
+~
+~
+33 0 0 Z
+10 0 85 2d10+20 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+2 2 0 0 0 0 1 0
+0 0 0 0 0 0 0 0
+#12
+small animal~
+a small animal~
+A small animal pokes around the ground.
+~
+~
+16777345 0 0 Z
+1 0 98 0d10+2 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0
+#13
+fish~
+a fish~
+A fish swims by.
+~
+~
+16777345 0 0 Z
+1 0 98 0d10+2 0d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0
+#14
+citizen colonist~
+a colonist~
+A colonist is going about his daily business.
+~
+~
+129 0 0 Z
+1 0 98 1d1+99 0d4+2
+5 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#15
+shopkeeper~
+a shopkeeper~
+A shopkeeper sells a variety of supplies.
+~
+~
+1048579 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#16
+waiter~
+a waiter~
+A waiter is waiting to take your order.
+~
+~
+1048579 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#17
+flight control officer~
+a flight control officer~
+A flight control officer monitors the orbiting fleet.
+~
+~
+1048579 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#18
+bartender~
+a bartender~
+A bartender is waiting to take your order.
+~
+~
+1048579 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#19
+mechanic~
+a mechanic~
+A mechanic runs this garage.
+~
+~
+1048579 0 0 Z
+1 0 100 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#20
+shopkeeper~
+a shopkeeper~
+This shopkeeper will pay a fair price for useful equipment.
+~
+~
+1048579 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#21
+technician~
+a technician~
+A technician works in the shipyard.
+~
+~
+1048579 0 0 Z
+1 0 100 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#22
+dealer~
+a dealer~
+A young man dressed in a hooded robe looks around nervously...
+~
+~
+1048705 0 0 Z
+1 0 98 1d1+99 0d4+2
+5 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#23
+street vendor~
+a street vendor~
+A street vendor has set up shop here.
+~
+~
+131 0 0 Z
+1 0 98 1d1+99 0d4+2
+5 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#24
+crystal dragon~
+a crystal dragon~
+A Crystal Dragon is guarding its nest.
+~
+~
+1048611 552 0 Z
+105 0 0 21d10+5000 10d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 1
+21 21 0 0 2097152 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if isnpc($n) 
+mpslay $n 
+endif 
+~
+|
+#25
+scruffy thief fellow~
+a scruffy looking fellow~
+This person is trying very hard not to be noticed.
+~
+~
+131 0 0 Z
+1 0 98 1d1+99 0d4+2
+5 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#26
+thug~
+a thug~
+This thug walks down the street shoving people out of his way.
+~
+~
+131 0 0 Z
+1 0 98 1d1+99 0d4+2
+5 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#27
+street person bum~
+a street person~
+A street person survives off of the trash he finds.
+~
+~
+131 0 0 Z
+1 0 98 1d1+99 0d4+2
+5 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#28
+Spaceship guard~
+a guard~
+An alert guard stands at attention.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 1d10+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#29
+alien invader~
+an alien invader~
+A grotesque creature dressed in battle armor is randomly blasting citizens.
+~
+~
+33 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+mpkill $n 
+~
+> all_greet_prog 100~
+mpkill $n 
+~
+> entry_prog 100~
+mpkill $n 
+~
+|
+#30
+employment clerk~
+an employment clerk~
+An employment services clerk is smiling at you.
+~
+~
+1048577 0 0 Z
+1 0 50 1d1+100 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Looking for work, $n? 
+~
+> speech_prog yes job~
+mp_offer_job $n 
+~
+> speech_prog yes. yes, job?~
+mp_offer_job $n 
+~
+|
+#0
+
+
+#SHOPS
+ 6    9 20 24 32 37   120  90         0 23    ; a clerk
+ 15    0  0  0  0  0   120  90         0 23    ; a shopkeeper
+ 16    0  0  0  0  0   120  90         0 23    ; a waiter
+ 18    0  0  0  0  0   120  90         0 23    ; a bartender
+ 20    2  3  6 35  0   120  90         0 23    ; a shopkeeper
+ 22    0  0  0  0  0   120  90         0 23    ; a dealer
+ 23    0  0  0  0  0   120  90         0 23    ; a street vendor
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3 spec_clan_guard
+M  4 spec_clan_guard
+M  5 spec_clan_guard
+M  9 spec_fido
+M  25 spec_thief
+M  27 spec_janitor
+M  28 spec_clan_guard
+S
+
+
+#$

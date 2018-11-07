@@ -1,0 +1,799 @@
+#OBJECTS
+#1
+credit credits~
+a credit~
+One miserable credit.~
+~
+10 0 1
+1 0 0 0
+1 0 0
+#2
+credits credit~
+%d credits~
+Some credits.~
+~
+10 0 1
+0 0 0 0
+1 0 0
+#3
+corpse remains pieces parts~
+the broken parts of %s~
+The shatered remains of %s are here.~
+~
+36 0 1
+0 0 0 1
+1 0 0
+#4
+corpse~
+the corpse of %s~
+The corpse of %s lies here.~
+~
+12 0 16385
+0 0 0 1
+100 0 0
+#5
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+~
+13 0 0
+0 0 0 1
+100 0 0
+#6
+scraps~
+the scraps of %s~
+The scraps of %s lie here.~
+~
+15 0 1
+5 0 0 1
+1 0 0
+#7
+mushroom~
+a mushroom~
+A delicious mushroom is here.~
+%s enjoy$q $p.~
+9 0 1
+5 0 0 0
+1 5 0
+#8
+light flashlight~
+a flashlight~
+A flashlight could come in handy.~
+~
+1 8192 1
+0 0 50 0
+1 5 0
+#9
+spring~
+a magical spring~
+A magical spring flows here.~
+~
+14 64 0
+100000 100000 0 0
+10 10 0
+#10
+meat fresh slice~
+a slice of raw meat from %s~
+A slice of raw meat from %s lies lies on the ground.~
+~
+9 262144 1
+15 0 0 0
+2 0 0
+#11
+shopping bag~
+a bag~
+A shopping bag lies discarded on the ground nearby.~
+~
+6 8192 1
+50 0 0 0
+2 20 0
+#12
+saber lightsaber~
+a proto lightsaber~
+A proto lightsaber is here.~
+~
+2 0 8193
+0 0 0 3
+1 0 0
+#13
+message terminal~
+a message terminal~
+A standard galactic-net message terminal has been installed here.~
+~
+4 0 0
+0 0 0 0
+1 0 0
+#14
+black poison powder~
+black poisoning powder~
+A small amount of black poisoning powder sits in a small container on the ground.~
+~
+0 0 16385
+0 0 0 0
+1 100 0
+#15
+note data disk message info~
+a message disk~
+A message disk has been discarded here.~
+~
+7 0 16385
+0 0 0 0
+1 1500 0
+#16
+mail terminal~
+a mail terminal~
+A standard galactic-net mail terminal has been installed here.~
+~
+4 0 0
+0 0 0 0
+1 0 0
+#17
+blaster rifle~
+a blaster rifle~
+A blaster rifle was left here.~
+~
+2 8192 8193
+0 8 4 6 2000 2000
+10 2000 0
+A
+18 2
+#18
+academy vibro blade knife dagger vibro-blade~
+a vibro-blade~
+You see a finely honed vibro-blade here.~
+~
+2 64 8193
+12 5 4 2 1000 1000
+3 250 0
+A
+18 -2
+#19
+canteen water grey stock~
+a canteen~
+A small grey canteen has been drooped here.~
+~
+8 0 1
+40 40 0 0
+1 10 0
+#20
+backpack~
+a backpack~
+A backpack was carelessly misplaced here.~
+~
+6 0 1025 128
+20 0 0 0
+1 5 0
+A
+17 -5
+#21
+prototype blaster~
+prototype blaster~
+A prototype blaster is here~
+~
+2 0 8193
+0 0 0 6
+1 0 0
+#22
+prototype vibro-blade~
+prototype vibro-blade~
+A prototype vibro-blade shouldn't be here~
+~
+2 0 8193
+0 0 0 2
+1 0 0
+#23
+comlink radio communicator~
+a comlink~
+A small hand-held comlink.~
+~
+29 0 16385
+0 0 0 0
+1 50 0
+#24
+generic armor~
+a newly created generic armor~
+Some god dropped a newly created generic armor here.~
+~
+3 1073741824 0
+0 0 0 0
+1 0 0
+#25
+omnipresent message terminal~
+the omnipresent message terminal~
+A message terminal contains important immortal information.~
+~
+4 0 0
+0 0 0 0
+1 0 0
+#26
+prototype shield~
+a newly created prototype shield~
+Some god dropped a newly created prototype shield here.~
+~
+3 0 513
+0 0 0 0
+1 0 0
+#27
+dried fruit~
+some dried fruit~
+Some dried fruit makes a handy snack.~
+~
+9 0 1
+5 0 0 0
+1 10 0
+#28
+ammo cell amunition cartridge~
+an ammunition cell~
+An ammunition cell was carelessly left here.~
+~
+17 8192 16385
+500 500 0 0
+1 10 0
+#29
+lens~
+a lens~
+Someone dropped a lens here.~
+~
+19 0 1
+0 0 0 0
+1 10 0
+#30
+toolkit~
+a toolkit~
+Someone dropped a toolkit here.~
+~
+23 0 1
+0 0 0 0
+1 25 0
+#31
+plastic~
+some plastic~
+Someone dropped some plastic here.~
+~
+21 0 1
+0 0 0 0
+1 20 0
+#33
+oven~
+an oven~
+A small portable oven is here.~
+~
+25 0 1
+0 0 0 0
+1 500 0
+#34
+steel~
+some steel~
+Someone left some scrap steel here.~
+~
+24 0 1
+0 0 0 0
+1 20 0
+#35
+gem~
+a gem~
+A small gem is here.~
+~
+20 0 1
+1 0 0 0
+1 20 0
+#36
+mirror~
+a small mirror~
+A small mirror is here.~
+~
+26 0 1
+0 0 0 0
+1 10 0
+#37
+circuit board~
+a circuit board~
+A circuit is board here.~
+~
+27 0 1
+0 0 0 0
+1 200 0
+#38
+superconductor~
+a superconductor~
+A superconductor could come in handy.~
+~
+28 0 1
+0 0 0 0
+1 500 0
+#39
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#40
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#41
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#42
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#43
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#44
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#45
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#46
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#47
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#48
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#49
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#50
+reserved~
+reserved~
+This object is reserved for future use.~
+~
+5 1073741824 0
+0 0 0 0
+1 0 0
+#51
+fresh fruit~
+some fresh fruit~
+Some fruit is growing here.~
+~
+9 0 1
+5 0 0 0
+1 5 0
+#52
+root vegetable~
+a root vegetable~
+A root vegetable has been unearthed.~
+~
+9 0 1
+5 0 0 0
+1 5 0
+#53
+seaweed~
+some seaweed~
+This seaweed looks edible~
+~
+9 0 1
+5 0 0 0
+1 5 0
+#54
+plant food~
+an edible plant~
+This plant looks edible.~
+~
+9 0 1
+5 0 0 0
+1 5 0
+#55
+fiberous plant fiber~
+a fiberous plant~
+Fiberous plants are used in manufacturing.~
+~
+37 0 1
+0 0 0 0
+1 10 0
+#56
+sticky tree resin~
+some sticky tree resin~
+Tree resin is often used in maufacturing.~
+~
+37 0 1
+0 0 0 0
+1 10 0
+#57
+crystals~
+some small crystals~
+A few small crystals have been dug up.~
+~
+20 0 1
+0 0 0 0
+1 20 0
+#58
+metal ore~
+some metal ore~
+Some unrefined metal has been dug away from a mineral deposit.~
+~
+37 0 1
+0 0 0 0
+1 10 0
+#59
+rare precious metal~
+a small amount of precious metal~
+This rare metal is sought after for making jewellery.~
+~
+32 0 1
+0 0 0 0
+1 25 0
+#60
+shovel~
+a shovel~
+This shovel would make digging alot easier.~
+~
+18 0 16385
+0 0 0 0
+1 20 0
+#61
+battery~
+a battery~
+Someone dropped a battery here.~
+~
+22 8192 1
+0 0 0 0
+1 5 0
+#62
+an appetizer~
+an appetizer~
+An apetizer looks light yet delicious.~
+~
+9 0 1
+4 5 0 0
+1 4 0
+#63
+a salad~
+a salad~
+A salad is light and nutricious.~
+~
+9 0 1
+3 5 0 0
+1 3 0
+#64
+light lunch meal~
+a light meal~
+A light meal looks good for lunch.~
+~
+9 0 1
+10 5 0 0
+1 10 0
+#65
+large plate dinner food~
+a large plate of food~
+A large plate of fuid looks like a good dinner.~
+~
+9 0 1
+20 5 0 0
+1 20 0
+#66
+glass water~
+a glass of water~
+A glass of water looks refreshing.~
+~
+8 0 1
+3 3 0 0
+1 1 0
+#67
+cup coffee~
+a cup of coffee~
+A cup of coffee looks stimulating.~
+~
+8 0 1
+3 3 12 0
+1 2 0
+#68
+glass juice~
+a glass of juice~
+A glass of juice looks refreshing.~
+~
+8 0 1
+3 3 6 0
+1 3 0
+#69
+glass beer~
+a glass of beer~
+A glass of beer looks tasty.~
+~
+8 0 1
+3 3 1 0
+1 5 0
+#70
+shot whisky~
+a shot of whisky~
+A shot of whisky looks very tempting.~
+~
+8 0 1
+1 1 5 0
+1 5 0
+#71
+dragon crystal~
+a dragon crystal~
+A beautiful dragon crystal is worth alot of money.~
+~
+20 0 16385
+6 0 0 0
+1 2000 0
+A
+18 5
+#72
+crystal dragon nest~
+a crystal dragon nest~
+Crystal dragon nests are made of just about anything they can find.~
+~
+6 0 0
+20 0 0 0
+1 0 0
+A
+17 -5
+#73
+sewing kit~
+a sewing kit~
+A sewing kit is here.~
+~
+34 0 16385
+0 0 0 0
+1 25 0
+#75
+cheesecloth~
+some cheesecloth~
+Cheesecloth would make really lousy clothing.~
+~
+31 0 1 1
+0 0 0 0
+1 1 0
+#76
+light silk~
+a light silk~
+A light silk would make comfortable undergarments.~
+~
+31 0 1 1
+1 1 0 0
+1 40 0
+#77
+satin~
+some satin~
+Satin feels nice against the skin.~
+~
+31 0 1 1
+1 1 0 0
+1 30 0
+#78
+sheet silk~
+a large sheet of silk~
+A large sheet of silk could be used for making fancy outerwear.~
+~
+31 0 1 128
+1 1 0 0
+1 50 0
+#79
+thick silk~
+some thick silk~
+Some thick silk is very expensive.~
+~
+31 0 1 1
+2 2 0 0
+1 100 0
+#80
+thin cloth~
+some thin cloth~
+Some thin cloth is cheap clothing material.~
+~
+31 0 1 2
+2 2 0 0
+1 5 0
+#81
+thick cloth~
+some thick cloth~
+Some thick cloth is good for bargain hunters.~
+~
+31 0 1 4
+3 3 0 0
+1 10 0
+#82
+light fabric~
+a light fabric~
+A light fabric is good for making t-shirts.~
+~
+31 0 1 2
+3 3 0 0
+1 10 0
+#83
+fabric~
+some fabric~
+Some fabric has been discarded here.~
+~
+31 0 1 4
+3 3 0 0
+1 15 0
+#84
+heavy fabric~
+some heavy fabric~
+Some heavy fabric could be useful.~
+~
+31 0 1 8
+4 4 0 0
+1 25 0
+#85
+thin canvas~
+some thin canvas~
+Some thin canvas would make a good rain garment.~
+~
+31 0 1 64
+2 2 0 0
+1 10 0
+#86
+thick canvas~
+some thick canvas~
+Some thick canvas would make a good bag or backpack.~
+~
+31 0 1 128
+3 3 0 0
+1 20 0
+#87
+light synthetic material~
+a light synthetic material~
+A light synthetic material is stronger than most natural ones.~
+~
+31 0 1 4
+4 4 0 0
+1 35 0
+#88
+synthetic material~
+some synthetic~
+Some synthetic material si strong and resiliant.~
+~
+31 0 1 8
+5 5 0 0
+1 50 0
+#89
+heavy sythetic material~
+heavy synthetic material~
+Some heavy synthetic material is lying around collecting dust.~
+~
+31 0 1 16
+6 6 0 0
+1 65 0
+#90
+thin leather~
+some thin leather~
+Some thin leather has a weathered look.~
+~
+31 0 1 16
+5 5 0 0
+1 70 0
+#91
+leather~
+some leather~
+Leather is popular among many tailors this year..~
+~
+31 0 1 32
+6 6 0 0
+1 100 0
+#92
+hard leather~
+some hard leather~
+This leather is rock hard.~
+~
+31 0 1 64
+8 8 0 0
+1 200 0
+#93
+flak material~
+some flak material~
+This material provides excellent protection against high speed projectiles.~
+~
+31 0 1 128
+9 9 0 0
+1 500 0
+#94
+rubber material~
+some rubber~
+Rubber material makes flexible yet unnactractive clothing.~
+~
+31 0 1 16
+3 3 0 0
+1 30 0
+#95
+light bendable plastic~
+some bendable plastic~
+Some light bendable plastic provides excellent protection.~
+~
+31 0 0 32
+8 8 0 0
+1 350 0
+#96
+moldable plastic~
+moldable plastic~
+Moldable plastic can be shaped into armor plating.~
+~
+31 0 1 64
+9 9 0 0
+1 700 0
+#97
+plasteel~
+some plasteel~
+Plasteel is difficult to mold yet makes almost indestructable clothing.~
+~
+31 0 1 64
+10 10 0 0
+1 1000 0
+#98
+latex~
+some latex~
+Some latex- don't leave home without it.~
+~
+31 0 1 1
+0 0 0 0
+1 5 0
+#99
+cheap rag~
+a cheap rag~
+A cheap rag is good for blowing your nose on and thats about it.~
+~
+31 0 1
+0 0 0 0
+1 1 0
+#100
+package bag~
+a package~
+This package needs to be delivered asap.~
+~
+5 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#$

@@ -1,0 +1,24 @@
+Filename          mail~
+Vnum              16
+Min_read_level    0
+Min_post_level    0
+Min_remove_level  0
+Max_posts         200
+Type 	           1
+Read_group        ~
+Post_group        ~
+Extra_readers     ~
+Extra_removers    ~
+End
+Filename          gnet~
+Vnum              13
+Min_read_level    0
+Min_post_level    0
+Min_remove_level  0
+Max_posts         100
+Type 	           0
+Read_group        ~
+Post_group        ~
+Extra_readers     ~
+Extra_removers    ~
+End

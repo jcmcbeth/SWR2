@@ -1,0 +1,24 @@
+#PROTOTYPE
+Name         EE22 Long Range Patrol Spacecraft~
+Filename     ee22~
+Description  EE22 Patrolcraft are identicle to the EE21 spacecraft except for the
+addition of a hyperdrive and a slightly larger fuel supply.  This makes
+them ideal for patroling remote sectors of a starsystem as well as
+undeveloped regions of space.  However, like the EE21 the spacecraft is
+not suited for heavy combat.  
+~
+Class        0
+Model        3
+Tractorbeam  0
+Lasers       2
+Maxmissiles  0
+Maxshield    50
+Maxhull      100
+Maxenergy    3500
+Hyperspeed   100
+Maxchaff     0
+Realspeed    100
+Manuever     100
+End
+
+#END

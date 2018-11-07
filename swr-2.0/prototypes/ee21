@@ -1,0 +1,23 @@
+#PROTOTYPE
+Name         EE21 Light Patrol Spacecraft~
+Filename     ee21~
+Description  The EE22 Patrolship is quick and manueverable making it a good spacecraft
+for patroling starsystems and investigating possible threats.   However
+its light armament makes it poorly suited for heavy combat.  Also its lack
+of a hyperdrive further limits its uses. 
+~
+Class        0
+Model        0
+Tractorbeam  0
+Lasers       2
+Maxmissiles  0
+Maxshield    50
+Maxhull      100
+Maxenergy    2000
+Hyperspeed   0
+Maxchaff     0
+Realspeed    100
+Manuever     100
+End
+
+#END

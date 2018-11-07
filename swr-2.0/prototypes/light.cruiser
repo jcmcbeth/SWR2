@@ -1,0 +1,19 @@
+#PROTOTYPE
+Name         Light Cruiser~
+Filename     light.cruiser~
+Description  ~
+Class        0
+Model        9
+Tractorbeam  0
+Lasers       6
+Maxmissiles  20
+Maxshield    350
+Maxhull      10000
+Maxenergy    15000
+Hyperspeed   100
+Maxchaff     0
+Realspeed    50
+Manuever     50
+End
+
+#END

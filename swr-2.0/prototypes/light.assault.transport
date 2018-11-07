@@ -1,0 +1,22 @@
+#PROTOTYPE
+Name         Light Assault Transport~
+Filename     light.assault.transport~
+Description  This light transport is primarily used for deploying large groups of troops
+or supplies into a battle zone. Its light armament is suitable for self
+defense  but not for any prolonged combat situation.
+~
+Class        0
+Model        5
+Tractorbeam  0
+Lasers       2
+Maxmissiles  0
+Maxshield    100
+Maxhull      1000
+Maxenergy    5000
+Hyperspeed   150
+Maxchaff     0
+Realspeed    50
+Manuever     50
+End
+
+#END

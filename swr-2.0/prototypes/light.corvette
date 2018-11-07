@@ -1,0 +1,19 @@
+#PROTOTYPE
+Name         Light Corvette~
+Filename     light.corvette~
+Description  ~
+Class        0
+Model        6
+Tractorbeam  0
+Lasers       4
+Maxmissiles  10
+Maxshield    200
+Maxhull      2000
+Maxenergy    7500
+Hyperspeed   125
+Maxchaff     0
+Realspeed    100
+Manuever     100
+End
+
+#END

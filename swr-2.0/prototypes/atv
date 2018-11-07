@@ -1,0 +1,22 @@
+#PROTOTYPE
+Name         All Terrain Vehicle~
+Filename     atv~
+Description  This small wheeled vehicle is a quick, relaible method of transportation
+good for all terrains. However, its lack of any armament and weak hull
+make it completely usesless in battle. 
+~
+Class        5
+Model        0
+Tractorbeam  0
+Lasers       0
+Maxmissiles  0
+Maxshield    0
+Maxhull      100
+Maxenergy    1000
+Hyperspeed   0
+Maxchaff     0
+Realspeed    10
+Manuever     0
+End
+
+#END

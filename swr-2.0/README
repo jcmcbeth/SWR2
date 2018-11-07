@@ -1,0 +1,26 @@
+Before using this program please read all the license files in the 
+~/swr-2.0/doc/ directory. Running this program implies understanding
+and acceptance of any terms outlined therin.
+
+To run the mud change to your home directory and run the 
+startup script by typing:
+
+./run-swr &
+
+To connect to the mud telnet to port 9999. To change the default port you
+can either run the startup script using the desired port number as a 
+command line argument or edit the script.
+
+You will need to edit the code and recompile it in order to be the
+implementor. Look for the line in mud.h that defines IS_IMMORTAL. Edit it to
+suit your preferences. Then rebuild the code.
+
+To give your character all the commands first save and quit. Then locate your 
+player file in the ~/swr-2.0/player/ directories. Edit the line that says 
+Level changing the number from 1 to 200. Then log back on. Type "holylight"
+and "config +roomflags" for full immortal vision.
+
+Oh yeah,
+This code is unfinished and buggy...
+
+Enjoy

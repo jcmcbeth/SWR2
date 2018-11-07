@@ -1,0 +1,30 @@
+#PROTOTYPE
+Name         NU b13 Starfighter~
+Filename     newbie~
+Description  The NU b13 Starfighter is a lightly armed starfighter, commonly used by
+academy graduates. Heres a brief flying lesson: 
+  
+use LAUNCH to lift off. 
+use CALCULATE to select a location for your hyperjump 
+then use HYPERSPACE to execute it. 
+After your jump use RADAR to survey the starsystem. 
+use COURSE to change your direction of travel. 
+When you are close enough to a planet use LAND. 
+  
+Type HELP SHIPS for a full list of ship commands. 
+~
+Class        0
+Model        3
+Tractorbeam  0
+Lasers       2
+Maxmissiles  0
+Maxshield    25
+Maxhull      100
+Maxenergy    2000
+Hyperspeed   100
+Maxchaff     0
+Realspeed    100
+Manuever     100
+End
+
+#END

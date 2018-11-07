@@ -1,0 +1,19 @@
+#PROTOTYPE
+Name         Corvette~
+Filename     light~
+Description  ~
+Class        0
+Model        0
+Tractorbeam  0
+Lasers       0
+Maxmissiles  0
+Maxshield    0
+Maxhull      0
+Maxenergy    0
+Hyperspeed   0
+Maxchaff     0
+Realspeed    0
+Manuever     0
+End
+
+#END

@@ -1,0 +1,638 @@
+#HELPS
+
+-1 ADVENTURE~
+.
+   In our efforts to give credit to everyone who deserves it, we almost
+   forgot to give credit to one of the "grandfathers" of computer adventure
+   games... David Platt, the author of the original "Adventure" (c)1979.
+
+   Also credit to Ken Wellsch for porting the original Fortran-77 version
+   to UNIX-C (over a period of about 3 years) (c)1984.
+~
+
+0 ARCHITECT~
+Skills: 
+  
+survey 
+landscape and design 
+construction 
+bridges and exits 
+spacecraft 
+~
+
+0 ASSASSIN~
+Skills: 
+  
+backstab 
+vibro-blades 
+poison weapon 
+sneak 
+spacecraft 
+~
+
+1 BUILDING CONSTRUCTION LANDSCAPING SURVEYING BRIDGES BUILD~
+New planets are created as they are found with the EXPLORE command. 
+
+In order to build on a planet you must:
+
+A. Belong to the clan the controls the planet.
+B. Be "empowered" by your clan to build.
+C. Know the building skills/commands...
+
+bridge ....... connects rooms on a planet (skill)
+landscape .... used to alter the apearance of a planet (skill)
+construct .... build new areas on a planet (skill)
+survey ....... get information about a room (skill)
+
+For people desiring to expand their planets heres the advice I offer. Since
+you can't delete existing exists, I suggest that you start by building a
+road from the colonization center to an new area. You do this by changing
+the descriptions and sectors of the rooms with "landscape."  To start
+building your new area you use the "construct" comand wich starts a new
+room in the direction you supply. Finish that room with "landscape." You
+can also use "survey" at any time to get info about a room.  Try to keep
+your area well ballanced. Read the help file called "taxes" and check
+"showplanet" often.  Remember to build barracks and control towers.
+Leaving your area unprotected could result in its capture by opposing
+forces and the ultimate destruction of all your hard work. 
+~
+
+1 CLAN CLANS ORGANIZATION ORGANIZATIONS~
+The following commands are used with clans or organizations:
+ 
+organizations. shows a list of organizations.
+donate ....... donates money to the organizations funds.
+withdraw ..... withdraws money from the organizations funds.
+appoint ...... allows leader to appoint another member to leadership status
+empower ...... gives member special powers (ie. withdraw, induct, build)
+induct ....... inducts a person into your organization.
+outcast ...... kicks a person out of the organization.
+resign ....... to quit an organization.
+clanbuyship .. to purchas spacecraft and other vehicles for clan
+capture ...... allows an organization to capture the government of a planet.
+planets ...... shows a list of planets and who controls them.
+showclan ..... shows details about the organization specified
+showplanet ... shows details about specified planet
+postguard .... posts a guard that will attack opposing forces (skill)
+reinforcements calls mercinaries to help fight enemies (skill)
+order ........ give mercinaries orders
+addpatrol .... calls guards to patrol the area (skill)
+propeganda ... raises support for your organization (skill) 
+war........... declare war (or a ceasfire) with another clan 
+setwages...... set hourly wages to pay to clan members 
+
+see also: HELP TAXES, HELP BUILD
+~
+
+0 COLOUR COLOR COLOURS COLORS~
+&w^xThe foreground special character is:  &&
+Tokens for && are:
+  &w&&x  -&x Black                    &w &&r  -&r Red (blood)
+  &w&&g  -&g Green                    &w &&O  -&O Orange (brown)
+  &w&&b  -&b Dark Blue                &w &&p  -&p Purple
+  &w&&c  -&c Cyan                     &w &&w  -&w Gray (default color)
+  &w&&z  -&z Dark Grey                &w &&R  -&R Light Red
+  &w&&G  -&G Light Green              &w &&Y  -&Y Yellow
+  &w&&B  -&B Blue                     &w &&P  -&P Pink
+  &w&&C  -&C Light Blue               &w &&W  -&W White
+ 
+&wThe background special character is:  ^^
+Tokens for ^^ are:
+^x  ^^x(z)  - ^xBlack               ^x   ^^r(R)  - ^rRed
+^x  ^^g(G)  - &x^gGreen&w               ^x   ^^O(Y)  - &x^OOrange&w
+^x  ^^b(B)  - ^bBlue                ^x   ^^p(P)  - ^pPurple
+^x  ^^c(C)  - &x^cCyan&w                ^x   ^^w(W)  - &x^wGrey&w
+^zThe tokens in brackets are the same colors, but cause the foreground color
+to flash.
+^x 
+Note: If setting both foreground and background colors. The foreground must
+      precede the background color.
+~
+
+1 COMBAT KILLING FIGHTING~
+blast......... fire a ranged weapon into another room
+kill.......... attack a mobile or npc in the same room
+flee.......... attempt to flee from combat
+wimpy......... will automaticly flee from combat
+rescue........ will attempt to lure attackers from an ally
+aid........... assist an unconscious character
+murder........ attack another player
+kick.......... a foot attack
+throw......... throw an object you are holding
+ammo.......... reload your weapon
+wield......... equip your character with a weapon
+setblaster.... chages the power setting on your weapon
+~
+
+1 COMMUNICATION SPEAK SPEAKING TALK TALKING~
+channel....... lists or sets which channels you will hear.
+beep.......... Used to get someones attention with a "beep" and a short
+               message.
+gtell......... Used to communicate with members of a group.
+social........ Lists available socials.
+clantalk...... Used to communicate with other members of your clan.
+say........... Say something to the people in the same room as you.
+tell.......... Tell something to someone using your comlink.
+pnet.......... Use you comlink to broadcast a message to the entire planet.
+gnet.......... Use you comlink to broadcast a message to the entire galaxy.
+ooc........... Used for "out of character" ie real life conversations.
+yell.......... Yells to to the surrounding rooms.
+newbie........ New players can ask questions about the game.
+teach......... Teach someone a skill.
+~
+
+-1 CREDITS~
+SWR 2.0 is an extention of Smaug which was expanded from Merc
+which was derived from the original Dikumud code.
+ 
+SWR 2.0 copyright (c) 1997, 1998 was created by Sean Cooper
+(specs@golden.net) based on a concept and ideas from the original
+SWR 1.0 immortals: Himself, Mark Matt, Jp Coldarone, 
+Greg Baily, Kyle Hillman, Stefen Glenfelding, etc. as well as much
+input from its builders and players.
+ 
+DikuMud (c) program and concept by Sebastian Hammer
+(quinn@freja.diku.dk), Michael Seifert (seifert@freja.diku.dk),
+Hans Henrik (bombman@freja.diku.dk), Tom Madsen (noop@freja.diku.dk),
+and Katja Nyboe(katz@freja.diku.dk).
+ 
+Merc 2.1 (c) was created by Furey (mec@shell.portal.com), Hatchet
+(hatchet@uclink.berkeley.edu), and Kahn
+(michael@uclink.berkeley.edu).
+ 
+Smaug (c) was created by Derek Snider with the help of  Altrag,
+Blodkai, Narn, Haus, Scryn, Rennard, Swordbearer, Gorog, Grishnakh
+and Tricops.
+
+see HELP DIKU, HELP SMAUG, HELP MERC, HELP TSR, HELP ADVENTURE, and  
+HELP STARWARS for more credits.  
+~
+
+-1 DIKU~
+Realms of Despair was originally based on the Merc 2.1 code which was
+              based on the orignal DIKUMud code created by:
+
+                       The Original DIKUMud Team:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+                     Additional contributions from:
+
+ Michael Curran  - the player title collection and additional locations.
+ Bill Wisner     - for being the first to successfully port the game,
+                   uncovering several old bugs, uh, inconsistencies,
+                   in the process.
+
+         And: Mads Haar and Stephan Dahl for additional locations.
+
+  The Original DIKUMud was Developed at the Department of Computer Science
+                     at the University of Copenhagen.
+~
+
+-1 GREETING~
+Welcome To....
+
+============================================================================
+
+                                PLANETS
+   
+                   The Quest For Galactic Domination
+
+============================================================================
+
+
+SWR 2.0 by Sean Cooper - specs@golden.net
+
+Original SMAUG 1.0 written by Thoric (Derek Snider) with help from 
+Altrag, Blodkai, Narn, Haus, Scryn, Swordbearer, Rennard, Tricops and Gorog.
+Original MERC 2.1 code by Hatchet, Furey, and Kahn. Original DikuMUD code by:
+Hans Staerfeldt, Katja Nyboe, Tom Madsen, Michael Seifert && Sebastian Hammer
+
+ 
+Please enter your name:
+~
+
+-1 IMOTD~
+~
+
+1 INFO INFORMATION~
+~
+
+0 MEDIC~
+Skills 
+  
+aid 
+dodge 
+first aid 
+rescue 
+spacecraft 
+~
+
+200 MEIC~
+Skills: 
+  
+spacecraft 
+aid 
+first aid 
+rescue 
+dodge 
+~
+
+-1 MERC FUREY KHAN HATCHET~
+Originally based on the Merc 2.1 code which was created by Furey, 
+Hatchet, and Kahn.
+This original code base is available as Merc_21.tar.gz via FTP from:
+ftp.tcp.com, ftp.math.okstate.edu and game.org.
+E-mail to 'merc-request@kpc.com' to join the merc mailing list.
+
+Merc would like to thank ...
+  ... Diku Mud for their code base.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+                                Share and enjoy.
+~
+
+-1 MOBPROG MOBPROGRAMS OBJPROG ROOMPROG MUDPROG~
+.
+         The MOBprograms have been contributed by N'Atas-ha.
+
+         Haus hacked together room && obj programs 'cause
+          he got sick of failing to add lever bitvectors,
+               and cause he thought Carnage was a
+                  Trancendentally Cool Mud.
+~
+
+-1 MOTD~
+&RBridge command is finished. 
+Landscape bank is now fixed. 
+Makearmor etc should work now.&W 
+  
+&PSoldiers and ships will only attack clans you have declared war on.. use
+the "war" command to set and unset. 
+&w 
+&CExplore has been added.. be good 
+&W 
+~
+
+1 MOVE MOVEMENT~
+north, south, east, west... used to move characters from room to room
+se, sw, ne, nw............. used to move characters from room to room
+up, down................... used to move characters from room to room
+leave, enter............... enter/exit spacecraft, vehicles or rooms
+climb...................... used to move characters from room to room
+exit....................... shows a list of possible room exits
+sleep, wake................ sleeping assists healing but should only be
+                            done in safe areas
+sit, stand................. self explanitory
+rest....................... safer but slower than sleeping
+unlock, lock............... some doors and objects can be (un)locked
+open, close................ used on spacecraft, vehicles, doors, bags
+scan....................... use to look across several rooms
+look....................... use look by itself to look around
+                            can also be used to look at objects, charcters
+follow..................... follow another character
+                            use "follow self" to stop following
+~
+
+1 NEWBIE~
+If you are new to mudding this mud might be a liitle difficult to learn on
+but I guarantee the experience will be rewarding.
+
+The help files are pretty vague right now but offer a good starting place.
+Typing "help" by itself will point you in the right direction.
+
+If you have played any SWR muds before you will notice ALOT of changes in
+this version of the code. A major change is how much emphasis is placed
+on controling planets and having them almost entirely build by the clans
+that control them. Another change you will notice is that spacecraft are
+built on demand when you buy them. No more searching around for one for
+sale. Just type in the mode you want built for you and voila.
+
+Have fun.
+~
+
+-1 NEWS~
+Listing of recent news
+
+News... what news :p
+~
+
+-1 NMOTD~
+Welcome.
+ 
+There is a help file to help you get started. Type "help newbie" to view it.
+You also need to read the "help rules" file for obvious reasons.
+
+Have Fun :)
+~
+
+1 OBJECTS OBJECT ITEM ITEMS~
+ammo, battery..... replaces ammunition or a spent battery
+activate.......... to use a held device 
+dig, bury......... some objects can be burried, can be used to find food or
+                   burried resources.
+search............ look for hidden objects
+wear, remove...... wear or remove a piece of clothing or equipmanet
+wield, hold....... wield or hold a weapon or object for use
+inventory......... lists the items you are carrying
+equipment......... lists the items you are wearing or using
+get, put, drop.... transfering an object
+give.............. give an object to another character
+value............. see how much a shopkeeper will pay for an object
+list.............. list the items a shop has for sale
+buy, sell......... buy or sell an item at a shop
+empty, fill....... empty or fill a container
+eat............... eat something when your hungry
+drink............. drink something to ease your thirst
+examine........... look closely at an object
+pick.............. attempt to pick a locked door or object (skill)
+setblaster........ changes the power setting of your weapon
+~
+
+1 OTHER MISC MISCELLANEOUS~
+afk........... let others know your away from your keyboard
+buyhome....... buy a home / storage locker
+quit.......... save your character and leave the game
+save.......... save information about your character
+!............. repeat last command
+pagelength.... set how many lines of text that will be sent at once .. only
+               works with some commands
+ansi.......... turn color on and off
+prompt........ change your prompt, use "prompt default" to reset it.
+config........ change some user options
+teach......... teach someone a skill
+credits....... shows the games credits
+forget........ forget a skill completely
+~
+
+0 PILOT~
+Skills: 
+spacecraft 
+ship maintenance 
+ship design 
+weaponsystems 
+space combat 
+~
+
+0 PIRATE~
+Skills: 
+spacecraft 
+hijack 
+picklock 
+pickshiplock 
+weaponsystems 
+~
+
+1 RULES LAW PK SPAM POLICY PUNISHMENT RP BAN SITEBAN NAMES~
+There are only a few rules and they are pretty straight forward. 
+  
+1. Behind every character is a real life flesh and blood person. Treat each
+of those people with respect and dignity as if you were speaking face to
+face. Keep disputes between characters, between characters, not between the
+players behind them. 
+  
+2. This is a roleplaying mud although its not enforced. Please try to keep
+your character's actions in-character. If you want to discuss things that
+your character wouldn't know about such as the fact that you are playing a
+game or "real life" stuff please use the "out of character" channel, OOC.
+  
+3. Spam is bad. Avoid spam. Do not be a spammer. 
+  
+4. Have fun. 
+~
+
+103 SAVE~
+~
+
+0 SENATOR~
+Skills: 
+spacecraft 
+survey 
+postguard 
+reinforcements 
+propeganda 
+~
+
+-1 SMAUG THORIC~
+.           [S]imulated [M]edieval multi-[U]ser [A]dventure game
+
+SMAUG is an ongoing project headed up by Derek Snider (Thoric), who has
+taken on several assistants in expanding and improving the code.
+
+ Thoric Altrag Blodkai Narn Haus Scryn Swordbearer Rennard Tricops Gorog
+~
+
+0 SOLDIER~
+Skills: 
+  
+spacecraft 
+blasters 
+enhanced damage 
+kick 
+second attack 
+~
+
+1 SPACE SHIP SHIPS PILOTING FLIGHT SPACECRAFT~
+The following commands are used to control spacecraft in Star Wars Reality:
+
+SHIPS                    Shows list of ships that are for sale or rent.
+BOARD <shipname>         Enters a ship.
+LEAVESHIP                Leaves a ship.
+LAUNCH                   Launches a ship.
+LAND <planet> <location> Lands at specified dock.
+SPEED <newspeed>         Accelerates to specified speed.
+COURSE <x y z>           Stears ship towards vector x y z.
+STATUS                   Shows ships status.
+INFO <ship>              Gives info on a ship.
+RADAR                    Scans the surrounding system.
+HYPERSPACE               Preforms hyperspce jump to system set with calculate.
+CALCULATE <system>       Calculates hyperspace jump to system.
+BUYSHIP <model>          Used to purchas a ship.
+SELLSHIP                 Sells the ship to the local shipyard.
+SHIELDS [ON|OFF|IDLE]    Turns shields on or off (idle leaves shields on but
+                         they do not recharge and eventually drain away).
+RECHARGE                 Recharges shields faster.
+OPENHATCH <ship>         Opens ships hatch.
+CLOSEHATCH <ship>        Closes ships hatch.
+TARGET <ship>            Aims weapons or turret at specified target.
+FIRE [missile|laser]     Fires lasers or specified missile.
+REPAIRSHIP [shipsystem]	 Preforms repairs to ships hull or specified system.
+ADDPILOT <name>          Allows a character to pilot your ship.
+REMPILOT <name>          Removes a character from your ships pilot list.
+AUTOTRACK                Automaticly adjusts you course to follow your target.
+CLANBUYSHIP              Buys a ship for your organization.
+CHAFF                    Releases small scraps to stop incoming missiles.
+AUTOPILOT                Toggles the ships autopilot.
+~
+
+0 SPY~
+Skills: 
+spacecraft 
+sneak 
+peek 
+pick lock 
+hide 
+~
+
+1 STARWARS "STAR WARS"~
+A brief thank-you...
+
+The author of SWR would like to give special thanks to George Lucas,  
+creator of the Star Wars films. His work captured my imagination as  
+a child and has continued to inspire me as an adult.  
+
+And a disclaimer....
+
+Although parts of this code have been inspired by Star Wars, it is not 
+in any official or unofficial way connected to George Lucas, Star Wars, 
+Lucasfilm Ltd. or any other related corperations or persons.  
+ 
+Star Wars is a trademark (TM) of Lucasfilm Ltd.  
+~
+
+1 STORY THEME BACKGROUND HISTORY QUEST GAMEPLAY "THE QUEST FOR GALACTIC DOMINATION"~
+. 
+Anyone feel like filling this in :p 
+  
+~
+
+-1 SUMMARY~
+The following help topics are available to get you started:
+
+NEWBIE          Read this one first.
+RULES           Also a good read.
+STORY           Explains the theme of the game.
+
+MOVEMENT        Help on moving around the mud.
+COMMUNICATION   Help on communicating with other characters.
+INFORMATION     Help on getting information about the mud and your character.
+OBJECTS         Help using and manipulating objects.
+SPACECRAFT      Help on flying spacecraft.
+ORGANIZATIONS   Help on politics, power and group objectives
+COMBAT          Basic self defense commands.
+TERMINALS       Help on messages and mail terminals.
+OTHER           Help on other important commands.
+
+TAXES           Help on how planetary revenue is created.
+BUILDING        Help on building and editing planets.
+
+Type HELP <topic> to view them. (ie HELP NEWBIE) 
+~
+
+0 TAILOR~
+Skills: 
+spacecraft 
+makecontainer 
+makejewelery 
+makearmor 
+quicktalk 
+~
+
+1 TAXES REVENUE INCOME POPULATION "POP SUPPORT" CITY CITIES FARMLAND WILDERNESS~
+Orgizations receive revenue from the planets they control. This revenue is
+based on a monthly rate and is paid in hourly installments. The revenue is
+generated from a combination of taxes and resource production with
+maintenance costs subtracted. The following things affect the total
+revenue: 
+  
+Population...... The higher a planets population the more taxes you receive.
+                 A higher population also increases the amount of resources
+                 that can be produced. 
+Citysize........ Population increases with the size of a city. 
+Farmland........ Population is limited based on your food supply. Although
+                 food is collected from the wildness, farmland provides a
+                 much greater amount. 
+Wilderness ..... Areas covered by a planets natural habitat provide a
+                 planets total resource base.  
+
+Popular support. The support of the people towards the planets government
+                 can drasticly increase or decrease a planets maximum
+                 popultaion and thus affect its revenue.
+
+Military........ The cost of supporting a planets military is subtracted.
+Automated Ships. The cost of maintaining defensive fleet is subtracted.
+Barracks........ The number of barracks on a planet increases the size of a
+                 planets army.
+Control Towers.. The number of control towers a planet has affects the
+                 size of its defensive fleet.
+~
+
+1 TERMINALS TERMINAL BOARDS NOTES MAIL~
+note write...... Begin composing a message
+note post....... Upload your message to the terminal
+note read....... Read a message on the terminal
+note list....... List all messages posted on the terminal 
+note to......... Address a message
+note subject.... Sets a messages subject
+note remove..... Deletes a message from the terminal 
+note show....... Look at a message in progress
+note take....... Downloads a message onto a portable data disk
+
+mail............ Mail commands are the same as note commands but used
+                 at mail terminals. ie. "mail write", "mail list", etc.
+~
+
+0 THIEF~
+Skills: 
+spacecraft 
+steal 
+pick lock 
+peek 
+hide 
+~
+
+-1 TSR D&&D AD&&D~
+.               Dungeons && Dragons (tm) and TSR Hobbies Inc.
+
+  Here we'd like to duplicate the original credits from the Basic Rules,
+Dungeons && Dragons (tm), (c) 1974, 1977, 1978, 1981, 1983 TSR Hobbies Inc.
+
+Acknowledgements:
+The following individuals have made this work possible through its years of
+evolution: Dave Arneson, Brian Blume, Dave Cook, Anne C. Gray, Ernie Gygax,
+E. Gary Gygax, Allen Hammack, Kevin Hendryx, John Eric Holmes, Harrold
+Johnston, Tim Kask, Jeff Key, Rob Kuntz, Alan Lucien, Steve Marsh, Tom
+Moldvay, Mike Mornard, Jon Pickens, Brian Pitzer, Michael Price, Patrick L.
+Price, Paul Reiche, Evan Robinson, Gordon Schick, Lawrence Schick, Don Snow,
+Edward G. Sollers, Garry Spiegle, Stephen D. Sullivan, Ralph Wagner, Jim
+Ward, Jean Wells, Bill Wilkerson, Donald Paterson, and Frank Mentzer.
+
+      DIKUMud's concepts were directly based on TSR's D&&D concepts.
+~
+
+0 WEAPONSMITH~
+Skills: 
+spacecraft 
+makeblaster 
+makeblade 
+makeshield 
+quicktalk 
+~
+
+-1 _DIEMSG_~
+...Everything begins to fade to black
+
+...and then
+
+...nothing.
+~
+
+0 $~
+
+
+#$
