@@ -9,19 +9,8 @@ Using the original tag and Ubuntu Server 18.10 use the following commands:
 sudo apt-get install csh make gcc
 
 git clone https://github.com/jcmcbeth/swr2.git
-cd swr2/swr-2.0
+cd swr2/swr-2.0/src
 
-mkdir bin
-mkdir log
-
-cd src
-```
-Update the Makefile so that the follow line no longer has lcrypt commented out:
- ```make
- $(CC) $(L_FLAGS) -o ../bin/swr $(O_FILES) -lm     # -lcrypt
- ```
-Then continue with the following commands:
-```bash
 make all
 
 cd ../..
