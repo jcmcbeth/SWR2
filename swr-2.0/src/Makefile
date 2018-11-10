@@ -29,7 +29,7 @@ all:
 
 ../bin/swr: $(O_FILES)
 	rm -f ../bin/swr
-	$(CC) $(L_FLAGS) -o ../bin/swr $(O_FILES) -lm     # -lcrypt
+	$(CC) $(L_FLAGS) -o ../bin/swr $(O_FILES) -lm -lcrypt
 	chmod g+w ../bin/swr
 	chmod g+w $(O_FILES)
 
