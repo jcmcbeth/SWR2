@@ -19,6 +19,6 @@ chmod +x run-swr
 ./run-swr &
 ```
 
-You are also going to want to extract the intial data.zip file or the MUD will fail to start.
+You are also going to want to extract the initial data.zip file or the MUD will fail to start.
 
 Now you can telnet to the mud on port 9999.
